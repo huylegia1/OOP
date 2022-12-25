@@ -1,7 +1,7 @@
-package Lab2;
+package Lab3;
 import java.util.Scanner;
 
-public class LCD {
+public class GCD {
     public static void main(String[] args) {
         Scanner so = new Scanner(System.in);
         int so1 = so.nextInt();
