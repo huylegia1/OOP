@@ -1,4 +1,4 @@
-package Lab5p2;
+package Lab567;
 
 public class Square extends Rectangle {
     private double side;
@@ -24,6 +24,6 @@ public class Square extends Rectangle {
         this.side = side;
     }
     public String toString() {
-        return "Side: " + getSide() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: s" + getArea() + ", Perimeter: " + getPerimeter();
+        return "Square " + "Side: " + getSide() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: s" + getArea() + ", Perimeter: " + getPerimeter();
     }
 }

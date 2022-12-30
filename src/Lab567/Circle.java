@@ -1,4 +1,4 @@
-package Lab5p2;
+package Lab567;
 
 public class Circle extends Shape {
     public final double Pi = 3.14159;
@@ -30,11 +30,6 @@ public class Circle extends Shape {
         return 2*radius*Pi;
     }
     public String toString() {
-        return "Radius: " + getRadius() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: " + getArea() + ", Perimeter: " + getPerimeter();
-    }
-
-    public static void main(String[] args) {
-        Circle c = new Circle(3.0);
-        System.out.println(c.toString());;
+        return "Circle: " + "Radius: " + getRadius() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: " + getArea() + ", Perimeter: " + getPerimeter();
     }
 }

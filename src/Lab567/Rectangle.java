@@ -1,4 +1,4 @@
-package Lab5p2;
+package Lab567;
 
 public class Rectangle extends Shape {
     private double width;
@@ -41,6 +41,6 @@ public class Rectangle extends Shape {
         return 2*(width+length);
     }
     public String toString() {
-        return "Length: " + getLength() + ", Width: " + getWidth() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: " + getArea() + ", Perimeter: " + getPerimeter();
+        return "Rectangle: " + "Length: " + getLength() + ", Width: " + getWidth() + ", Color: " + getColor() + ", Is filled: " + isFilled() + ", Area: " + getArea() + ", Perimeter: " + getPerimeter();
     }
 }
